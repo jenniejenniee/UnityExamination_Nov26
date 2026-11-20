@@ -14,8 +14,6 @@ public class TopDownMovement : MonoBehaviour
     
     private Vector2 moveInput;
     private Rigidbody2D rb;
-
-    
     
     void Awake()
     {
@@ -27,9 +25,9 @@ public class TopDownMovement : MonoBehaviour
 
     private void Update()
     {
-
+        
     }
-
+    
     private void FixedUpdate()
     {
         // Set velocity based on direction of input and maxSpeed
